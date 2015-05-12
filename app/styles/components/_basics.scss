@@ -1,8 +1,32 @@
+@mixin vendor-transition($property: all, $duration: 0.5s, $effect: ease){
+
+  transition: $property $duration $effect;
+  -webkit-transition: $property $duration $effect;
+  -moz-transition: $property $duration $effect;
+  -o-transition: $property $duration $effect;
+
+}
+
 body {
   background: rgba(225, 225, 225, 0.99);
 }
 
+.hidden{
+  @include vendor-transition(all 1s ease-in);
+  opacity: 0;
+}
+
+#main-loader{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+}
+
 .header-strip{
+  @include vendor-transition(all 1s ease-in);
+  opacity: 1;
   height: 325px;
   background: rgb(56, 153, 157);
   position: absolute;
