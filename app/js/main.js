@@ -6,7 +6,7 @@ function preLoad(){
     setTimeout(function(){
         loader.fadeOut();
         content.removeClass('hidden');
-    }, 4000);
+    }, 2000);
 }
 
 
