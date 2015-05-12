@@ -1,3 +1,13 @@
 body {
-  background: limegreen;
+  background: rgba(225, 225, 225, 0.99);
+}
+
+.header-strip{
+  height: 325px;
+  background: rgb(56, 153, 157);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
 }
