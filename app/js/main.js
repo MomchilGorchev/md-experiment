@@ -1,7 +1,7 @@
 
 function preLoad(){
     var loader = $(document.getElementById('main-loader')),
-        content = $(document.getElementById('main-content'));
+        content = $(document.querySelectorAll('.main-content'));
 
     setTimeout(function(){
         loader.fadeOut();
@@ -12,6 +12,8 @@ function preLoad(){
 
 $(document).ready(function(){
     $('.slider').slider({full_width: true});
+
+    $('.parallax').parallax();
 
     preLoad();
 });

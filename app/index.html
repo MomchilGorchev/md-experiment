@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-       <div id="main-content" class="container hidden">
+       <div class="container hidden main-content">
            <div class="header-strip z-depth-1"></div>
            <h1>Materialise Prototype</h1>
            <div class="slider">
@@ -129,7 +129,11 @@
                    </div>
                </div>
            </div>
-
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="https://unsplash.it/1200/650?image=723"></div>
+        </div>
+        <div class="container hidden main-content">
            <div class="row">
                <div id="tabs-menu-wrapper" class="col s12">
                    <ul class="tabs">
@@ -194,19 +198,22 @@
                        <div class="col s12 m4 l4">
                            <div class="infographs-wrapper">
                                <i class="large mdi-hardware-cast-connected"></i>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. Pellentesque porta nunc quis semper luctus. Suspendisse tempus, nibh eu convallis auctor, orci nunc fermentum urna, id fermentum leo sapien non erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec pellentesque sodales quam eget suscipit. Aliquam convallis pulvinar suscipit.</p>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, <br />
+                                   vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. </p>
                            </div>
                        </div>
                        <div class="col s12 m4 l4">
                            <div class="infographs-wrapper">
                                <i class="large mdi-hardware-memory"></i>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. Pellentesque porta nunc quis semper luctus. Suspendisse tempus, nibh eu convallis auctor, orci nunc fermentum urna, id fermentum leo sapien non erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec pellentesque sodales quam eget suscipit. Aliquam convallis pulvinar suscipit.</p>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, <br />
+                                   vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. </p>
                            </div>
                        </div>
                        <div class="col s12 m4 l4">
                            <div class="infographs-wrapper">
                                <i class="large mdi-image-transform"></i>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. Pellentesque porta nunc quis semper luctus. Suspendisse tempus, nibh eu convallis auctor, orci nunc fermentum urna, id fermentum leo sapien non erat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec pellentesque sodales quam eget suscipit. Aliquam convallis pulvinar suscipit.</p>
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra, nulla eget accumsan iaculis, tortor velit auctor nunc, in laoreet lorem augue vitae lectus. Nunc tristique pharetra justo, <br />
+                                   vel hendrerit neque porta vitae. Integer ultricies magna eget tristique scelerisque. </p>
                            </div>
                        </div>
                    </div>
@@ -311,7 +318,78 @@
                    </div>
                </div>
            </div>
+           <div class="row">
+               <div class="col s12 m4 l4">
+                   <form class="col s12">
+                       <div class="row">
+                           <div class="input-field col s6">
+                               <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                               <label for="first_name">First Name</label>
+                           </div>
+                           <div class="input-field col s6">
+                               <input id="last_name" type="text" class="validate">
+                               <label for="last_name">Last Name</label>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="input-field col s12">
+                               <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                               <label for="disabled">Disabled</label>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="input-field col s12">
+                               <input id="password" type="password" class="validate">
+                               <label for="password">Password</label>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="input-field col s12">
+                               <input id="email" type="email" class="validate">
+                               <label for="email">Email</label>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+               <div class="col s12 m8 l8">
+                   <div class="collection">
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item active">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                       <a href="#!" class="collection-item">Alvin</a>
+                   </div>
+               </div>
+           </div>
        </div>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">Just a experimental page</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
         <!--TODO - Include inside this enclosure all your custom scripts you want to be deployed and minified -->
